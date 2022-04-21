@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
 // const axios = require("axios");
 const markdown = require("./utils/generateMarkdown");
 const generateMarkdown = require('./utils/generateMarkdown');
