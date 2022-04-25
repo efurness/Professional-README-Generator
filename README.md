@@ -1,8 +1,8 @@
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
 # PROJECT TITLE 
- hej
+ ReadME generator
 # TABLE OF CONTENTS 
- fh
+ as below
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation)
 3. [Usage Information](#usage)
@@ -11,24 +11,24 @@
 6. [Test Instructions](#tests)
 7. [Questions](#questions)
 # DESCRIPTION 
- js
+ generating readme
 # INSTALLATION 
- sss
+ install Path, FS, Inquirer, markdown,
 # USAGE 
- sss
+ solely
 # LICENSE 
- MIT
+ Apache
   
 * [License](#license)
 
   ## License
-    This project is licensed under the MIT license.
+    This project is licensed under the Apache license.
 # CONTRIBUTING 
-ss
+
 # TESTS 
- s
+ none
 # QUESTIONS 
- s
+ many
     
-* For additional help or questions about collaboration, please reach out to elasfern@gmail.com
+* For additional help or questions about collaboration, please reach out to Ellen.Furness@du.edu
 * Follow me on Github at [efurness](http://github.com/efurness)
