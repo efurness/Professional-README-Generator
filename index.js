@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
-// const axios = require("axios");
 const markdown = require("./utils/generateMarkdown");
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
@@ -39,7 +38,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'Choose your License',
         choices: ["MIT","Apache","ISC","Mozilla","GNU"]
     },

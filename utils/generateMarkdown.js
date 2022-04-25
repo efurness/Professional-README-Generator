@@ -44,13 +44,13 @@ function generateMarkdown(data) {
 # DESCRIPTION \n ${data.Description}
 # INSTALLATION \n ${data.Installation}
 # USAGE \n ${data.Usage}
-# LICENSE \n ${data.License}
+# LICENSE \n ${data.license}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
 # CONTRIBUTING \n${data.Contributing}
 # TESTS \n ${data.Tests}
 # QUESTIONS \n ${data.Questions}
-    email ${data.email}
+    
 * For additional help or questions about collaboration, please reach out to ${data.email}
 * Follow me on Github at [${data.github}](http://github.com/${data.github})`
 
