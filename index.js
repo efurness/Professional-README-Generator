@@ -14,49 +14,60 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Project Title',
+        message: 'Name your Project Title',
+    },
+    
+    {
+        type: 'input',
+        name: 'TableOfContents',
+        message: 'List your Table of Contents',
     },
     {
         type: 'input',
         name: 'Description',
-        message: 'Project Description',
-    },
-    {
-        type: 'input',
-        name: 'TableOfContents',
-        message: 'Table of Contents',
+        message: 'Give a brief description of your project',
     },
     {
         type: 'input',
         name: 'Installation',
-        message: 'Project Installation',
+        message: 'Provide your installation instructions',
     },
     {
         type: 'input',
         name: "Usage",
-        message: 'Usage',
+        message: 'Describe your usage',
     },
     {
         type: 'list',
         name: 'License',
-        message: 'License',
-        choices: ["MIT","Apache","ISC"]
+        message: 'Choose your License',
+        choices: ["MIT","Apache","ISC","Mozilla","GNU"]
     },
     {
         type: 'input',
         name: 'Contributing',
-        message: 'Contributing Factors',
+        message: 'Add any contributing guidelines',
     },
     {
         type: 'input',
         name: 'Tests',
-        message: 'Tests',
+        message: 'What tests were compiled?',
     },
     {
         type: 'input',
         name: 'Questions',
-        message: 'Questions',
-    },        
+        message: 'Your Questions',
+    }, 
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Add your email address',
+    },    
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username',
+    },           
 ]
 
 

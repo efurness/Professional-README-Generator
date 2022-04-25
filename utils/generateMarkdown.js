@@ -3,8 +3,8 @@
 function renderLicenseBadge(license) {
   if (license !== 'None') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-    }
-    return '';
+  }
+  return '';
 }
 
 
@@ -32,17 +32,28 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `${renderLicenseBadge(data.license)}
+# PROJECT TITLE \n ${data.title}
+# TABLE OF CONTENTS \n ${data.TableOfContents}
+1. [Project Description](#project-description)
+2. [Installation Instructions](#installation)
+3. [Usage Information](#usage)
+4. [License](#license)
+5. [Contributor Guidelines](#contributors)
+6. [Test Instructions](#tests)
+7. [Questions](#questions)
+# DESCRIPTION \n ${data.Description}
+# INSTALLATION \n ${data.Installation}
+# USAGE \n ${data.Usage}
+# LICENSE \n ${data.License}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
-# TITLE ${data.title}
-# DESCRIPTION ${data.Description}
-# TABLE OF CONTENTS ${data.TableOfContents}
-# INSTALLATION ${data.Installation}
-# USAGE ${data.Usage}
-# LICENSE ${data.License}
-# CONTRIBUTING ${data.Contributing}
-# TESTS ${data.Tests}
-# QUESTIONS ${data.Questions}`
+# CONTRIBUTING \n${data.Contributing}
+# TESTS \n ${data.Tests}
+# QUESTIONS \n ${data.Questions}
+    email ${data.email}
+* For additional help or questions about collaboration, please reach out to ${data.email}
+* Follow me on Github at [${data.github}](http://github.com/${data.github})`
+
 }
 
 module.exports = generateMarkdown;
