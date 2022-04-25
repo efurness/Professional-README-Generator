@@ -14,48 +14,49 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Title',
+        message: 'Project Title',
     },
-            {
-                type: 'input',
-                name: 'Description',
-                message: 'Description',
-            },
-            {
-                type: 'input',
-                name: 'Table of contents',
-                message: 'Table of Contents',
-            },
-            {
-                type: 'input',
-                name: 'Installation',
-                message: 'Installation',
-            },
-            {
-                type: 'input',
-                name: "Usage",
-                message: 'Usage',
-            },
-            {
-                type: 'input',
-                name: 'License',
-                message: 'License',
-            },
-            {
-                type: 'input',
-                name: 'Contributing',
-                message: 'Contributing',
-            },
-            {
-                type: 'input',
-                name: 'Tests',
-                message: 'Tests',
-            },
-            {
-                type: 'input',
-                name: 'Questions',
-                message: 'Questions',
-            },        
+    {
+        type: 'input',
+        name: 'Description',
+        message: 'Project Description',
+    },
+    {
+        type: 'input',
+        name: 'TableOfContents',
+        message: 'Table of Contents',
+    },
+    {
+        type: 'input',
+        name: 'Installation',
+        message: 'Project Installation',
+    },
+    {
+        type: 'input',
+        name: "Usage",
+        message: 'Usage',
+    },
+    {
+        type: 'list',
+        name: 'License',
+        message: 'License',
+        choices: ["MIT","Apache","ISC"]
+    },
+    {
+        type: 'input',
+        name: 'Contributing',
+        message: 'Contributing Factors',
+    },
+    {
+        type: 'input',
+        name: 'Tests',
+        message: 'Tests',
+    },
+    {
+        type: 'input',
+        name: 'Questions',
+        message: 'Questions',
+    },        
 ]
 
 
