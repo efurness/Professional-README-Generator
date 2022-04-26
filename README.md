@@ -37,7 +37,7 @@ NO TESTS
 
 My challenges for this project was to get the license functions to work.  The problem was figured out: the spelling of license used a  capitol L in the index.js file and the license functions in generateMarkdown.js were all lower case so the license in the README was undefined, and so now everything works.
 
-Link to my readme_generator.gif
+https://github.com/efurness/Professional-README-Generator/blob/main/readme_generator.gif
 
 * For additional help or questions about collaboration, please reach out to elasfern@gmail.com
 * Follow me on Github at [efurness](http://github.com/efurness)
