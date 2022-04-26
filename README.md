@@ -2,7 +2,7 @@
 # PROJECT TITLE 
  Readme Generator
 # TABLE OF CONTENTS 
- dhjd
+ 
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation)
 3. [Usage Information](#usage)
@@ -11,7 +11,7 @@
 6. [Test Instructions](#tests)
 7. [Questions](#questions)
 # DESCRIPTION 
- this is a commmand line application using node to generate input from questions in an index.js file and then using markdown creating a readme file
+ this is a commmand line application using node to generate input from questions from an index.js file and then using markdown to create a readme file
 # INSTALLATION 
 installed node, npm, JSON packages, inquirer, FS or file system, markdown and path
 # USAGE 
@@ -33,5 +33,6 @@ None
 
 [README GENERATOR VIDEO] (https://github.com/efurness/Professional-README-Generator/blob/main/readme_generator.gif
     
-* For additional help or questions about collaboration, please reach out to 
-* Follow me on Github at [](http://github.com/)
+
+* For additional help or questions about collaboration, please reach out to Ellen.Furness@du.edu
+* Follow me on Github at [efurness](http://github.com/efurness)
