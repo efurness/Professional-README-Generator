@@ -1,8 +1,8 @@
 ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
 # PROJECT TITLE 
- ReadME generator
+ Readme Generator
 # TABLE OF CONTENTS 
- as below
+ 
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation)
 3. [Usage Information](#usage)
@@ -11,11 +11,11 @@
 6. [Test Instructions](#tests)
 7. [Questions](#questions)
 # DESCRIPTION 
- generating readme
+ this is a commmand line application using node to generate input from questions in an index.js file and then using markdown creating a readme file
 # INSTALLATION 
- install Path, FS, Inquirer, markdown,
+ installed node, npm, JSON packages, inquirer, FS or file system, markdown and path
 # USAGE 
- solely
+ frequent
 # LICENSE 
  Apache
   
@@ -24,11 +24,11 @@
   ## License
     This project is licensed under the Apache license.
 # CONTRIBUTING 
-
+none
 # TESTS 
- none
+ 0
 # QUESTIONS 
- many
+ 
     
-* For additional help or questions about collaboration, please reach out to Ellen.Furness@du.edu
+* For additional help or questions about collaboration, please reach out to ellen.furness@du.edu
 * Follow me on Github at [efurness](http://github.com/efurness)
