@@ -81,7 +81,7 @@ function init () {
     inquirer.prompt(questions)
     .then((inquirerResponse) => {   
         console.log("Making ReadMe");
-        writeToFile("ReadMe.md", generateMarkdown(inquirerResponse));
+        writeToFile("ReadMeexample.md", generateMarkdown(inquirerResponse));
     })
     .catch((err) => {
         console.log(err);
