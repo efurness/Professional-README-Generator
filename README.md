@@ -17,12 +17,12 @@ installed node, npm, JSON packages, inquirer, FS or file system, markdown and pa
 # USAGE 
  frequent
 # LICENSE 
-Apache
+MIT
   
 * [License](#license)
 
   ## License
-    This project is licensed under the Apache license.
+    This project is licensed under the MIT license.
 # CONTRIBUTING 
 None
 # TESTS 
