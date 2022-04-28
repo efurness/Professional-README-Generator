@@ -1,6 +1,6 @@
-![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
 # PROJECT TITLE 
- Readme generator
+ Readme Generator
 # TABLE OF CONTENTS 
  
 1. [Project Description](#project-description)
@@ -11,27 +11,28 @@
 6. [Test Instructions](#tests)
 7. [Questions](#questions)
 # DESCRIPTION 
- A command line application that uses node to generate input questions coming from an index.js file.  The answers are data that are generated into a readme using the markdown function.  The markdown gives the data from the command prompt input and feeds that data into a readme.
+ A command line application using Node and Inquirer to generate questions for a user on terminal and using write file function to feed the questions into a markdown file and the function generate markdown to produce a readme with the project and description for the sections of a readme.
 # INSTALLATION 
- the following were installed node, npm, path, fs file system, inquirer, generate markdown, and markdown
+ NODE JS, INQUIRER, FS file system, MARKDOWN, PATH were used for this exercise.
 # USAGE 
  frequent
 # LICENSE 
- ISC
+ Apache
   
 * [License](#license)
 
   ## License
-    This project is licensed under the ISC license.
+    This project is licensed under the Apache license.
 # CONTRIBUTING 
 none
 # TESTS 
  0
 # QUESTIONS 
  
- [GITHUB README GENERATOR](https://github.com/efurness/Professional-README-Generator.git)
-
-[README GENERATOR VIDEO] https://github.com/efurness/Professional-README-Generator/blob/main/readme_generator.gif
+ 
+ [README GENERATOR VIDEO (GOOGLE DRIVE)] (https://drive.google.com/file/d/1cb8_ixmXto_ka_FTuBjHfdCFj4-xNB1G/view?usp=sharing)
+ 
+ [Also on Screencasify:](https://watch.screencastify.com/v/8dI4KlXwWWXRbbW0JRts)
     
 * For additional help or questions about collaboration, please reach out to ellen.furness@du.edu
 * Follow me on Github at [efurness](http://github.com/efurness)

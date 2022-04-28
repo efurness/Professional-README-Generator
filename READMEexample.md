@@ -13,7 +13,7 @@ README GENERATOR
 
 # DESCRIPTION 
 
-This is a command line application running on NODE JS and takes user input to generate a README FILE.  The index.js contains the const variable with input questions containing input, message and name for the sections of the readme.  These questions are connected in the generateMarkdown.js file that uses a markdown function to feed the questions in the command line. The user is promted for questions about the project.  The results are printed into the Readme file.  The project was helpful to learn NODE JS and server-side application that allows developers to make readme's for their projects. 
+This is a command line application running on NODE JS and takes user input and a markdown function to generate a README FILE.  The index.js contains the const variable with input questions containing input, message and name for the sections of the readme.    The Inquirer installation allows the prompts to occur, and the write to file function gets the data from the input into a markdown file which generates the readme. using the function generateMarkdown(data) using template strings to push data from user input.  The user is promted for questions about the project and inputs the results creating the new readme generated each time the node index.js is run.  The project was helpful to learn NODE JS and server-side application that allows developers to make readme's for their projects. 
 
 # INSTALLATION 
 
