@@ -39,7 +39,11 @@ My challenges for this project was to get the license functions to work, the spe
 
 [GITHUB README GENERATOR](https://github.com/efurness/Professional-README-Generator.git)
 
-[README GENERATOR VIDEO] https://github.com/efurness/Professional-README-Generator/blob/main/readme_generator.gif
+
+[README GENERATOR VIDEO (GOOGLE DRIVE)] (https://drive.google.com/file/d/1cb8_ixmXto_ka_FTuBjHfdCFj4-xNB1G/view?usp=sharing)
+ 
+[Also on Screencasify:](https://watch.screencastify.com/v/8dI4KlXwWWXRbbW0JRts)
+
 
 * For additional help or questions about collaboration, please reach out to elasfern@gmail.com
 * Follow me on Github at [efurness](http://github.com/efurness)
